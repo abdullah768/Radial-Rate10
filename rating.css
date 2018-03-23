@@ -1,0 +1,170 @@
+.ratouter{
+	height: 15vw;
+	width: 15vw;
+	border-radius: 50%;
+	background-color: #bdc3c7;
+	position: relative;
+	overflow: hidden;
+	z-index: 2;
+}
+.ratinner{
+	margin:10%;
+	height: 80%;
+	width: 80%;
+	border-radius: 50%;
+	background-color: #ecf0f1;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 4;
+}
+.score{
+	z-index:6;
+	font-size: 80px;
+	 color: #585858;
+	 position: absolute;
+	 font-weight: bold;
+	 top: 50%;
+	 left: 50%;
+	 transform: translateX(-50%) translateY(-50%);
+}
+.customtxt{
+	z-index:6;
+	font-size: 50px;
+	 color: #585858;
+	 position: absolute;
+	 font-weight: bold;
+	 top: 50%;
+	 left: 50%;
+	 transform: translateX(-50%) translateY(-50%);
+}
+.quad{
+	position: absolute;
+	overflow: hidden;
+	width: 50%;
+	height: 50%;
+	z-index: 3;
+}
+.quad1{
+	left:50%;
+	top:0%;
+}
+.quad2{
+	left: 50%;
+	top:50%;
+}
+.quad3{
+	left:0%;
+	top:50%;
+}
+.quad4{
+	left: 0%;
+	top:0%;
+}
+.val{
+	height: 100%;
+	width: 100%;
+}
+.ratg .val{
+	background-color: #1abc9c;
+}
+.ratb .val{
+	background-color: #2980B9;
+}
+.ratp .val{
+	background-color: #8E44AD;
+}
+.ratdb .val{
+	background-color: #2C3E50;
+}
+.ratr .val{
+	background-color: #C0392B;
+}
+.rato .val{
+	background-color: #D35400;
+}
+.ratrp .val{
+	background-color: #900C3F;
+}
+.val1{
+	transform: rotate(-100deg);
+	transform-origin: bottom left;
+}
+.val2{
+	transform: rotate(-100deg);
+	transform-origin: top left;
+}
+.val3{
+	transform: rotate(-100deg);
+	transform-origin: top right;
+}
+.val4{
+	transform: rotate(-100deg);
+	transform-origin: bottom right;
+}
+.rat1 .val1{
+	transform: rotate(calc(36deg - 90deg));
+}
+.rat2 .val1{
+	transform: rotate(calc(72deg - 90deg));
+}
+.rat3 .val1,.rat4 .val1,.rat5 .val1,.rat6 .val1,.rat7 .val1,.rat8 .val1,.rat9 .val1,.rat10 .val1{
+	transform: rotate(0deg);
+}
+.rat3 .val2{
+	transform: rotate(calc(108deg - 180deg));
+}
+.rat4 .val2{
+	transform: rotate(calc(144deg - 180deg));
+}
+.rat5 .val2,.rat6 .val2,.rat7 .val2,.rat8 .val2,.rat9 .val2,.rat10 .val2{
+	transform: rotate(0deg);
+}
+.rat6 .val3{
+	transform: rotate(calc(36deg - 90deg));
+}
+.rat7 .val3{
+	transform: rotate(calc(72deg - 90deg));
+}
+.rat8 .val3,.rat9 .val3,.rat10 .val3{
+	transform: rotate(0deg);
+}
+.rat8 .val4{
+	transform: rotate(calc(108deg - 180deg));
+}
+.rat9 .val4{
+	transform: rotate(calc(144deg - 180deg));
+}
+.rat10 .val4{
+	transform: rotate(0deg);
+}
+.rat1 .score:before{
+	content: "1";
+}
+.rat2 .score:before{
+	content: "2";
+}
+.rat3 .score:before{
+	content: "3";
+}
+.rat4 .score:before{
+	content: "4";
+}
+.rat5 .score:before{
+	content: "5";
+}
+.rat6 .score:before{
+	content: "6";
+}
+.rat7 .score:before{
+	content: "7";
+}
+.rat8 .score:before{
+	content: "8";
+}
+.rat9 .score:before{
+	content: "9";
+}
+.rat10 .score:before{
+	content: "10";
+}
